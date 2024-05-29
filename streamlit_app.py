@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Cargar los datos
-data = pd.read_csv('tu_archivo.csv')
+data = pd.read_csv('Peliculas.csv')
 
 # Crear un slider para seleccionar el año
 year_to_filter = st.slider('Seleccione el año', min_value=int(data['Year'].min()), max_value=int(data['Year'].max()), value=int(data['Year'].min()))
